@@ -1,0 +1,11 @@
+[all]
+bears = SpaceConsistencyBear
+use_spaces = yes
+
+[all.html]
+files = **.html
+bears += HTMLLintBear
+
+[all.css]
+files = **.css
+bears += CSSLintBear
