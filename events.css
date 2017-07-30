@@ -100,7 +100,7 @@ strong {
         background: url('https://preview.ibb.co/dALv25/cs_bg.png') center center / cover no-repeat;
     }
 
-    .fullscreen-bg__video {
+    .fullscreen-bg__video:nth-child(2){
         display: none;
     }
 }
