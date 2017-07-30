@@ -104,3 +104,7 @@ strong {
         display: none;
     }
 }
+.fullscreen-bg__video:nth-child(1){
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
