@@ -18,16 +18,15 @@ body {
     /*justify-content: center;*/
     /*align-items: center;*/
     height: 100%;
+    /*margin: 20px 20px 20px 20px;*/
 }
 
-.imgx{
-    width: 100%;
-    height: auto;
-}
-img {
+#imgx {
 
     -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 40% 100%, 40% 80%);
     position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .row {
@@ -64,4 +63,7 @@ strong {
 
 #social a:hover span i {
     color: #a8518a;
+}
+#social{
+    min-width: 100%;
 }
